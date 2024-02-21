@@ -103,6 +103,12 @@ const Home = () => {
                 <Button color="white" bgColor="blue" text="Download Report" borderRadius={10}/>
               </div>
             </div>
+            <div>
+              <Stacked 
+              width = "320px"
+              height = "320px"
+              />
+            </div>
           </div>
         </div>
       </div>
