@@ -522,7 +522,7 @@ export const links = [
     title: 'Business Intelligence',
     links: [
       {
-        name: 'Linha',
+        name: 'line',
         icon: <AiOutlineStock />,
       },
       {
