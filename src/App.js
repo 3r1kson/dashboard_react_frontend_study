@@ -72,7 +72,8 @@ const App = () => {
                 <Route path="/pie" element={<Pie />} />
                 <Route path="/financial" element={<Financial />} />
                 <Route path="/cores" element={<Cores />} />
-                <Route path="/pyramid" element={<Stacked />} />
+                <Route path="/pyramid" element={<Pyramid />} />
+                <Route path="/stacked" element={<Stacked />} />
                 stack{" "}
               </Routes>
             </div>

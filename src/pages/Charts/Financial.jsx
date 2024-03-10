@@ -2,7 +2,7 @@ import React from 'react';
 import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, HiloSeries, DateTime, Logarithmic, Tooltip, Zoom, Crosshair } from '@syncfusion/ej2-react-charts';
 
 import { Header } from '../../components';
-import { barCustomSeries, barPrimaryXAxis, barPrimaryYAxis, financialChartData, FinancialPrimaryXAxis, FinancialPrimaryYAxis } from '../../data/dummy';
+import { financialChartData, FinancialPrimaryXAxis, FinancialPrimaryYAxis } from '../../data/dummy';
 import { useStateContext } from '../../contexts/ContextProvider';
 
 const date1 = new Date('2017, 1, 1');
