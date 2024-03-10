@@ -531,15 +531,15 @@ export const links = [
       },
 
       {
-        name: 'Barras',
+        name: 'Bar',
         icon: <AiOutlineBarChart />,
       },
       {
-        name: 'Torta',
+        name: 'Pie',
         icon: <FiPieChart />,
       },
       {
-        name: 'Financeiro',
+        name: 'Financial',
         icon: <RiStockLine />,
       },
       {

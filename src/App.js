@@ -4,7 +4,7 @@ import { FiSettings } from "react-icons/fi";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
 
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
-import { Calendar, Configuration, Editor, Employees, Home, Integrations, Kanban, Tasks, Area, Bar, ColorMapping, Financial, Line, Pie, Pyramid, Stacked } from './pages';
+import { Calendar, Configuration, Editor, Employees, Home, Integrations, Kanban, Tasks, Area, Bar, Cores, Financial, Line, Pie, Pyramid, Stacked } from './pages';
 import "./App.css";
 import { useStateContext } from "./contexts/ContextProvider";
 
@@ -70,7 +70,8 @@ const App = () => {
                 <Route path="/area" element={<Area />} />
                 <Route path="/bar" element={<Bar />} />
                 <Route path="/pie" element={<Pie />} />
-                <Route path="/color-mapping" element={<ColorMapping />} />
+                <Route path="/financial" element={<Financial />} />
+                <Route path="/cores" element={<Cores />} />
                 <Route path="/pyramid" element={<Stacked />} />
                 stack{" "}
               </Routes>
